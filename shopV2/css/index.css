@@ -1,0 +1,41 @@
+div{
+    /* border: 1px solid red; */
+}
+
+.logo{
+    float: left;
+    height: 60px;
+    width: 33%;
+    line-height: 60px;
+}
+
+#header{
+    background-color: black;
+    height: 50px;
+    line-height: 50px;
+}
+
+.header{
+    text-decoration: none;
+    color: white;
+}
+
+#footer{
+    text-align: center;
+}
+
+.price{
+    color: red;
+}
+
+.product{
+    float: left;
+    height: 240px;
+    width: 16.6%;
+}
+
+#middle{
+    width: 50%;
+    float: left;
+    height: 240px;
+}

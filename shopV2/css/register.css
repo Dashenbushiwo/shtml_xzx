@@ -1,0 +1,27 @@
+.header{
+    float: left;
+    width: 33%;
+    height: 100%;
+}
+
+#footer{
+    text-align: center;
+}
+
+#content{
+    width: 60%;
+    height: 80%;
+    background-color: white;
+    margin: auto;
+    border: 5px solid black;
+    position: relative;
+    top: 35px;
+}
+
+form{
+    margin: 60px auto;
+}
+
+table{
+    
+}

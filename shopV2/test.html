@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function dianwo(){
+            alert("我被点了，兄弟");
+        }
+
+        function change(){
+            var a = document.getElementById("a");
+            a.innerHTML = "!!!!!!!!!!!!!!";
+        }
+    </script>
+</head>
+<body>
+    <button onclick="dianwo()">点我有惊喜</button>
+    <input type="submit" value="点我也有惊喜" onclick="change()">
+    <div id="a">我要被改掉了</div>
+</body>
+</html>
